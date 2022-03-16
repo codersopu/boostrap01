@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/athletics-pictogram-16-216355.png" type="image/x-icon">
+    <title>Bootstap 4 Starter Pack</title>
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--navbar-dark means text color will be light-->
+      <!--navbar-expand means all list placed one by one-->
+   <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+       <div class="container">
+           <a href="#home-section" class="navbar-brand ">loopLab</a>
+           <!--button use for small device when button clicked then menue will be appear-->
+           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <!--collapse & navbar-collapse use for menue hide-->
+               <!--navbar-nav means unlisted-->
+                <ul class="navbar-nav ml-auto">
+                     <!--nav-item & nav-link tag create text color light and vertically space-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explore-head-section">Explore</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="#create-head-section">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#share-head-section ">Share</a>
+                    </li>
+                </ul>
+          </div>
+       </div>
+   </nav>
+   <!--HEAD SECTION-->
+   <section id="home-section">
+       <div class="dark-overly">
+           <div class="home-inner">
+               <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 d-none d-sm-block">
+                        <!--d-none means this part is disappear
+                         d-sm-block means disappear part show from sm part-->
+                        <h1 class="display-4">Build <strong>social profiles</strong>  and gain revenue and <strong> profits</strong></h1>
+                        <!--Flex use for checkbox-->
+                        <div class="d-flex flex-row">
+                            <!--align-self-start & end  use for placement checkbox-->
+                            <div class="p-4 align-self-start mt-2">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                <!--lead class use for change font style-->
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolore voluptas? Ut eaque eum cumque tenetur esse voluptates laudantium reprehenderit?</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <!--align-self-start & end  use for placement checkbox-->
+                            <div class="p-4 align-self-start mt-2">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                <!--lead class use for change font style-->
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolore voluptas? Ut eaque eum cumque tenetur esse voluptates laudantium reprehenderit?</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <!--align-self-start & end  use for placement checkbox-->
+                            <div class="p-4 align-self-start mt-2">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                <!--lead class use for change font style-->
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolore voluptas? Ut eaque eum cumque tenetur esse voluptates laudantium reprehenderit?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card bg-primary text-center card-form">
+                            <div class="card-body">
+                                <h3>Sign Up Today</h3>
+                                <p>Please fill up this form to register</p>
+                                <form action="">
+                                    <div class="form-group">
+                                        <!--form-control class create full widht -->
+                                        <input type="text" placeholder="username" name="username" class="form-control form-control-lg" >
+                                    </div>
+                                    <div class="form-group">
+                                        <!--form-control class create full widht -->
+                                        <input type="email" placeholder="email" class="form-control form-control-lg" >
+                                    </div>
+                                    <div class="form-group">
+                                        <!--form-control class create full widht -->
+                                        <input type="password" placeholder="Password" name="email" class="form-control form-control-lg" >
+                                    </div>
+                                    <div class="form-group">
+                                        <!--form-control class create full widht -->
+                                        <input type="password" placeholder="Confirm Password" name="pass1" class="form-control form-control-lg" >
+                                    </div>
+                                    <!--btn-block means full widht created-->
+                                    <input type="submit" value="submit" class="btn btn-outline-light btn-block">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!--EXPLORE HEAD SECTION-->
+   <section id="explore-head-section" class="text-center py-5">
+       <div class="container">
+           <div class="row">
+               <div class="col md 12">
+                   <h2 class="display-4">Explore</h2>
+                   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vitae? Explicabo beatae nostrum sequi, officia accusantium dolores? Harum dolore magni aliquid ?</p>
+                   <a href="#" class="btn btn-outline-light">Find Out More</a>  
+               </div>
+           </div>
+       </div>
+   </section>
+   <!--EXPLORE MAIN SECTION-->
+   <section id="explore-main-section" class="bg-light py-5 text-dark">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 col-lg-6">
+                   <!--image fluid means its cover inside row-->
+                <img src="img/children-learn.jpg" class="img-fluid rounded my-2" alt="children-learning">
+               </div>
+               <div class="col-md-12 col-lg-6">
+                 <h3>Explore learn & Connect</h3> 
+                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eum nesciunt alias possimus, praesentium minima.</p>
+                 <div class="d-flex flex-row">
+                     <div class="p-4 align-self-start mt-2">
+                        <i class="fa fa-check"></i>
+                     </div>
+                     <div class="">
+                         <p class="lead p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, et!</p>
+                     </div>
+                 </div>
+                 <div class="d-flex flex-row">
+                    <div class="p-4 align-self-start mt-2">
+                       <i class="fa fa-check"></i>
+                    </div>
+                    <div class="">
+                        <p class="lead p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, et!</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </div>
+   </section>
+   <!--CREATE HEAD SECTION-->
+   <section id="create-head-section" class="bg-primary text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="display-4">Create</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at maiores ullam architecto quis ea.</p>
+                <a href="#" class="btn btn-outline-light">Find Out More</a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--CREATE MAIN SECTION-->
+   <section id="create-main-section" class="py-5">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-6 col-md-12">
+                   <h3>Create Your Passion</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium temporibus fugit ipsa quam tenetur odio quae repellat, explicabo aut consequatur asperiores nam odit non? Ullam?</p>
+                   <div class="d-flex flex-row">
+                        <div class="align-self-start p-4 mt-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="align-self-end p-4">
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo placeat architecto voluptatum quos natus praesentium.</p>
+                        </div>
+                   </div>
+                   <div class="d-flex flex-row">
+                    <div class="align-self-start p-4 mt-3">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="align-self-end p-4 mt-2">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo placeat architecto voluptatum quos natus praesentium.</p>
+                    </div>
+               </div>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                   <img src="img/computer-learn.jpg" class="img-fluid rounded" alt="computer-learn">
+               </div>
+           </div>
+       </div>
+   </section>
+   <!--SHARE SECTION-->
+   <section id="share-head-section" class="py-5 bg-light text-dark">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 col-lg-6 ">
+                   <img src="img/computer-learn.jpg" class="img-fluid rounded mt-4" alt="share-sec">
+               </div>
+               <div class="col-md-12 col-lg-6">
+                    <h3>Share What you Create</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, tempora odit sit id tempore mollitia temporibus ducimus nemo numquam illo iusto incidunt, maiores earum blanditiis.</p>
+                  <div class="d-flex flex-row">
+                    <div class="align-self-start p-4 mt-2">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="align-self-end p-4">
+                        
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, molestiae repellendus illo magni earum commodi?</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <div class="align-self-start p-4 mt-2">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="align-self-end p-4">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, molestiae repellendus illo magni earum commodi?</p>
+                    </div>
+                  </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!--FOOTER SECTION-->
+   <footer id="footer-section" class="py-5 text-light text-center">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <h2>LoopLAB</h2>
+                   <p>Copyright &copy;2021</p>
+                   <span>Design by: <a href="http://www.facebook.com" class="ml-2 text-warning" target="_blank">Talha</a></span>
+                    <br><br>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+               </div>
+           </div>
+       </div>
+   </footer>
+   <!--CONTACT US MODAL-->
+   <div class="modal" id="contactModal">
+       <div class="container">
+           <div class="modal-dailog sm">
+               <div class="modal-content bg-dark">
+                   <div class="modal-header">
+                       <h3>Contact us</h3>
+                       <button class="close text-light" data-dismiss="modal">
+                           &times;
+                       </button>
+                   </div>
+                   <div class="modal-body">
+                       <form action="https://formspree.io/f/abutalhaopu@gmail.com"method="post">
+                           <div class="form-group">
+                               <label for="name">Name</label>
+                               <input type="text" class="form-control" id="name" name="Name">
+                           </div>
+                           <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" name="Mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                           <textarea name="message" id="message" class="form-control"></textarea>
+                        </div>
+                        <input type="submit" value="send" class="btn btn-primary">
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>    
+</body>
+</html>
